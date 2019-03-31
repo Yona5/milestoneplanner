@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS milestone (
+  id int AUTO_INCREMENT PRIMARY KEY,
+  milestone VARCHAR(255)
+);

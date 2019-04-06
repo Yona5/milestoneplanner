@@ -1,9 +1,9 @@
-package com.milestoneplanner.servlet;
+package com.servlet;
 
+import com.db.H2Milestone;
+import com.util.mustache.MustacheRender;
 import lombok.Data;
-import com.milestoneplanner.dbplanner.db.H2Milestone;
-import com.milestoneplanner.model.Milestone;
-import com.milestoneplanner.util.mustache.MustacheRender;
+import com.model.Milestone;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -29,7 +29,7 @@ public class MilestoneServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Milestone> milestones = h2Milestone.findMilestones();
-        String html = mustache.render("index.mustache", new Results("hi"));
+        String html = mustache.render("index.mustache", new Result(milestones.size()));
         response.setContentType("text/html");
         response.setStatus(200);
         response.getOutputStream().write(html.getBytes(Charset.forName("utf-8")));
@@ -49,9 +49,9 @@ public class MilestoneServlet extends HttpServlet{
         Result(int count) { this.count = count; }
     }
 
-    @Data
-    class Results{
-        private String counts;
-        Results(String counts) { this.counts = counts; }
-    }
+//    @Data
+//    class Results{
+//        private String counts;
+//        Results(String counts) { this.counts = counts; }
+//    }
 }

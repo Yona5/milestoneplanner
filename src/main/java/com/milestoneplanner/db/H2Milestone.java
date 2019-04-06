@@ -1,4 +1,4 @@
-package com.milestoneplanner.dbplanner.db;
+package com.milestoneplanner.db;
 
 import com.milestoneplanner.model.Milestone;
 import org.slf4j.Logger;

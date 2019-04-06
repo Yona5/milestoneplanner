@@ -1,14 +1,12 @@
 package com.milestoneplanner.servlet;
 
-import com.milestoneplanner.dbplanner.db.H2Milestone;
+import com.milestoneplanner.db.H2Milestone;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.Locale;
 
 public class Runner {
     @SuppressWarnings("unused")
@@ -42,11 +40,11 @@ public class Runner {
 
     public static void main(String[] args) {
         try {
-            LOG.info("starting dbdemo");
+            LOG.info("starting MilestoneApp");
             Runner runner = new Runner();
             runner.start();
         } catch (Exception e) {
-            LOG.error("Unexpected error running dbdemo: " + e.getMessage());
+            LOG.error("Unexpected error running MilestoneApp: " + e.getMessage());
             e.printStackTrace();
         }
     }

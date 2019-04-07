@@ -1,9 +1,9 @@
-package com.servlet;
+package com.milestoneplanner.servlet;
 
-import com.db.H2Milestone;
-import com.util.mustache.MustacheRender;
 import lombok.Data;
-import com.model.Milestone;
+import com.milestoneplanner.db.H2Milestone;
+import com.milestoneplanner.model.Milestone;
+import com.milestoneplanner.util.mustache.MustacheRender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

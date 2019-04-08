@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.List;
+import java.util.Date;
 
 public class MilestoneServlet extends HttpServlet{
     @SuppressWarnings("unused")
@@ -38,7 +39,7 @@ public class MilestoneServlet extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String milestone_name = request.getParameter("milestone_name");
-        Milestone milestone = new Milestone(milestone_name);
+        Milestone milestone = new Milestone(milestone_name, milestone_name, new Date(), new Date());
         h2Milestone.addMilestone(milestone);
         response.sendRedirect("/index.html");
     }

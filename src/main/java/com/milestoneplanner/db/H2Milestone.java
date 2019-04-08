@@ -9,6 +9,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Date;
 
 public class H2Milestone implements AutoCloseable{
     @SuppressWarnings("unused")
@@ -50,9 +51,12 @@ public class H2Milestone implements AutoCloseable{
     }
 
     public void addMilestone(Milestone milestone) {
-        final String ADD_MILESTONE_QUERY = "INSERT INTO milestone (milestone) VALUES (?)";
+        final String ADD_MILESTONE_QUERY = "INSERT INTO milestone (msName, description, dueDate, completionDate) VALUES (?,?,?,?)";
         try (PreparedStatement ps = connection.prepareStatement(ADD_MILESTONE_QUERY)) {
-            ps.setString(1, milestone.getMilestone()); //come back to this
+            ps.setString(1, milestone.getName()); //come back to this
+            ps.setString(2, milestone.getDescription());
+            ps.setString(3, milestone.getDueDate().toString());
+            ps.setString(4, milestone.getCompletionDate().toString());
             ps.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -60,12 +64,12 @@ public class H2Milestone implements AutoCloseable{
     }
 
     public List<Milestone> findMilestones() {
-        final String LIST_MILESTONES_QUERY = "SELECT milestone  FROM milestone";
+        final String LIST_MILESTONES_QUERY = "SELECT msName  FROM milestone";
         List<Milestone> out = new ArrayList<>();
         try (PreparedStatement ps = connection.prepareStatement(LIST_MILESTONES_QUERY)) {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                out.add(new Milestone(rs.getString(1)));
+                out.add(new Milestone(rs.getString(1), rs.getString(2), new Date(), new Date()));
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);

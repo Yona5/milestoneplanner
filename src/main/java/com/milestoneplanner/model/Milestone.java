@@ -3,7 +3,6 @@ package com.milestoneplanner.model;
 import java.util.Date;
 import lombok.Data;
 import lombok.NonNull;
-import lombok.Value;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -55,8 +55,8 @@ public class H2Milestone implements AutoCloseable{
         try (PreparedStatement ps = connection.prepareStatement(ADD_MILESTONE_QUERY)) {
             ps.setString(1, milestone.getName()); //come back to this
             ps.setString(2, milestone.getDescription());
-            ps.setString(3, milestone.getDueDate().toString());
-            ps.setString(4, milestone.getCompletionDate().toString());
+            ps.setDate(3, java.sql.Date.valueOf("2013-09-04"));
+            ps.setDate(4, java.sql.Date.valueOf("2013-09-04"));
             ps.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -69,7 +69,7 @@ public class H2Milestone implements AutoCloseable{
         try (PreparedStatement ps = connection.prepareStatement(LIST_MILESTONES_QUERY)) {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                out.add(new Milestone(rs.getString(1), rs.getString(2), new Date(), new Date()));
+                out.add(new Milestone(rs.getString(1), rs.getString(1), new Date(), new Date()));
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);

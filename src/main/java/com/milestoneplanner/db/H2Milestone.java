@@ -15,8 +15,8 @@ public class H2Milestone implements AutoCloseable{
     @SuppressWarnings("unused")
     static final Logger LOG = LoggerFactory.getLogger(H2Milestone.class);
 
-    public static final String MEMORY = "jdbc:h2:mem:shop";
-    public static final String FILE = "jdbc:h2:~/shop";
+    public static final String MEMORY = "jdbc:h2:mem:msApp";
+    public static final String FILE = "jdbc:h2:~/msApp";
 
     private Connection connection;
 
@@ -26,13 +26,13 @@ public class H2Milestone implements AutoCloseable{
     }
 
     public H2Milestone() {
-        this(MEMORY);
+        this(FILE);
     }
 
     public H2Milestone(String db) {
         try {
             connection = getConnection(db);
-            loadResource("/milestone.sql");
+            loadResource("/msapp.sql");
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }

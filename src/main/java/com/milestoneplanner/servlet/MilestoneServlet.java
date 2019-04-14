@@ -30,7 +30,7 @@ public class MilestoneServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Milestone> milestones = h2Milestone.findMilestones();
-        String html = mustache.render("indexsignup.mustache", new Result(milestones.size()));
+        String html = mustache.render("index.mustache", new Result(milestones.size()));
         response.setContentType("text/html");
         response.setStatus(200);
         response.getOutputStream().write(html.getBytes(Charset.forName("utf-8")));

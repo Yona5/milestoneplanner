@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aee02a0-62b7-412a-a0b1-e323cc6fd1ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/html/project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/resources/project.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/usertable.sql" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assets/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/html/dashboard.html" afterDir="false" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +35,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java">
@@ -42,11 +49,19 @@
           </provider>
         </entry>
       </file>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="283">
               <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+=======
+            <state relative-caret-position="187">
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#958#959#0" expanded="true" />
@@ -68,8 +83,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="391">
               <caret line="31" column="48" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="48" />
+=======
+            <state relative-caret-position="680">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,13 +100,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/logging.properties">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="23">
               <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+=======
+            <state relative-caret-position="285">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
@@ -95,11 +124,32 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexsignup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+              <folding>
+                <element signature="e#5410#5417#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/html/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+              <folding>
+                <element signature="e#11256#11263#1" expanded="true" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Project">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,16 +157,42 @@
               <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/html/project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+              <folding>
+                <element signature="e#9300#9307#1" expanded="true" />
+                <element signature="e#12860#12867#1" expanded="true" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/resources/msapp.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/assets/css/dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
             </state>
           </provider>
         </entry>
@@ -124,8 +200,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.mustache">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2760">
               <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+=======
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
             </state>
           </provider>
         </entry>
@@ -136,16 +217,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>result</find>
+<<<<<<< HEAD
       <find>milestone</find>
       <find>Milestone</find>
       <find>getConnection</find>
       <find>getResource</find>
+=======
+      <find>data-target</find>
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/com/milestoneplanner/dbplanner/db</dir>
@@ -162,6 +248,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/dbplanner/db/H2Milestone.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.mustache" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/model/Milestone.java" />
         <option value="$PROJECT_DIR$/src/main/resources/user.sql" />
@@ -175,6 +262,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Project" />
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/resources/templates/signup.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/indexsignup.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/html/dashboard.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/assets/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/html/project.html" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
       </list>
     </option>
   </component>
@@ -185,10 +279,16 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,44 +296,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -241,8 +341,8 @@
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -250,8 +350,8 @@
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -259,8 +359,17 @@
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="util.mustache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -275,12 +384,40 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,9 +426,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555239051034" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554879141392" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -336,6 +479,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554056189290</updated>
       <workItem from="1554056193742" duration="10227000" />
+<<<<<<< HEAD
       <workItem from="1554071571347" duration="1060000" />
       <workItem from="1554100670537" duration="8209000" />
       <workItem from="1554569217646" duration="1042000" />
@@ -356,16 +500,29 @@
       <workItem from="1555153797371" duration="2746000" />
       <workItem from="1555157679658" duration="1857000" />
       <workItem from="1555238800708" duration="204000" />
+=======
+      <workItem from="1554743143203" duration="50009000" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="59064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3054755" />
+=======
+    <option name="totallyTimeSpent" value="60236000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="720" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17295082" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,12 +541,20 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32378224" />
+=======
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32955974" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Database" order="4" weight="0.3299712" />
+=======
+      <window_info anchor="right" id="Database" order="4" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -411,6 +576,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hj/m.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hg.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lkjd.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/hi/hi.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hid.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/hi.java" />
@@ -460,6 +626,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/dbplanner/db/H2Milestone.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/milestone.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/util.mustache/MustacheRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/Milestone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -475,14 +689,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="391">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="48" />
+=======
+        <state relative-caret-position="680">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/usertable.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -505,10 +725,19 @@
             <element signature="imports" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexsignup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+          <folding>
+            <element signature="e#5410#5417#1" expanded="true" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/project.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -520,12 +749,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/html/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#11256#11263#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -552,6 +795,26 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/assets/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/html/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+          <folding>
+            <element signature="e#9300#9307#1" expanded="true" />
+            <element signature="e#12860#12867#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4ac5d72f90ec62c8e1dbf189a739e12932a65825
   </component>
   <component name="masterDetails">
     <states>

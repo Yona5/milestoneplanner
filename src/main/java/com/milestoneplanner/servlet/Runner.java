@@ -27,7 +27,7 @@ public class Runner {
         handler.setInitParameter("org.eclipse.jetty.servlet.Default." + "resourceBase", "src/main/resources/webapp");
 
         handler.addServlet(new ServletHolder(new MilestoneServlet(h2Milestone)), "/index.html");
-        handler.addServlet(new ServletHolder(new MilestoneServlet(h2Milestone)), "/add"); // we post to here
+        handler.addServlet(new ServletHolder(new MilestoneServlet(h2Milestone)), "/add"); 
 
         DefaultServlet ds = new DefaultServlet();
         handler.addServlet(new ServletHolder(ds), "/");

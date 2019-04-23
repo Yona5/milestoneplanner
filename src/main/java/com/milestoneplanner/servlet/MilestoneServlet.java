@@ -41,6 +41,7 @@ public class MilestoneServlet extends HttpServlet{
         String milestone_name = request.getParameter("milestone_name");
         Milestone milestone = new Milestone(milestone_name, milestone_name, new Date(), new Date());
         h2Milestone.addMilestone(milestone);
+        h2Milestone.findMilestones();
         response.sendRedirect("/index.html");
     }
 

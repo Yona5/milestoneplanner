@@ -10,5 +10,8 @@
         <module name="milestone-planner" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="milestoneplanner" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

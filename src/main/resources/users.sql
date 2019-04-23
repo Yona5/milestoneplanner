@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS users (
-  fName VARCHAR(255),
-  lName VARCHAR(255),
-  email VARCHAR(255) PRIMARY KEY,
-  password VARCHAR(255)
-);

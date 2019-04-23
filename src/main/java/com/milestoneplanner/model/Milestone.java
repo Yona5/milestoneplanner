@@ -1,6 +1,7 @@
 package com.milestoneplanner.model;
 
 import java.util.Date;
+import java.time.LocalDate;
 import lombok.Data;
 import lombok.NonNull;
 import org.slf4j.Logger;
@@ -15,12 +16,24 @@ public class Milestone {
     private String description;
     private Date dueDate;
     private Date completionDate;
+    private int id;
 
     public Milestone(String name, String description, Date dueDate, Date completionDate){
         this.name = name;
         this.description = description;
         this.dueDate = dueDate;
         this.completionDate = completionDate;
+    }
+
+    public Milestone(String name, String description, Date dueDate, Date completionDate, int id){
+        this.name = name;
+        this.description = description;
+        this.dueDate = dueDate;
+        this.completionDate = completionDate;
+    }
+
+    public Milestone(int id){
+        this.id = id;
     }
 
     public String getName() {
@@ -53,5 +66,9 @@ public class Milestone {
 
     public void setCompletionDate(Date completionDate) {
         this.completionDate = completionDate;
+    }
+
+    public int getId(){
+        return this.id;
     }
 }

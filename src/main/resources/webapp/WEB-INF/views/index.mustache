@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Milestone Planner</title>
+        <style>
+            body{
+                margin:0;
+                font-family: 'Lato', sans-serif;
+            }
+            #headerUl{
+                text-align: right;
+                margin-right: 30px;
+                margin-top: 0px;
+            }
+            #headerUl li{
+                display: inline-block;
+                padding-right: 20px;
+                margin-top: 20px;
+            }
+            #headerUl li a{
+                text-decoration: none;
+                color:white;
+                font-size: 20px;
+            }
+            #headerUl li a:hover{
+                text-decoration: underline;
+            }
+            #headerPara{
+                text-align: center;
+                font-size: 4em;
+                color: white;
+                margin-top: 120px;
+            }
+            #headerPara span{
+                display: block;
+            }
+
+            header{
+                background: linear-gradient(rgba(67,206,162,1), rgba(24,90,157,1));
+                background-size: cover;
+                background-position: center;
+                height: 500px;
+                position: relative;
+            }
+            .widthContainer{
+                padding-bottom: 0px;
+                padding-top: 50px;
+            }
+            .middle{
+                width:50%;
+                margin: auto;
+                /*border:1px solid black;*/
+                text-align: center;
+            }
+
+            #main-row-3{
+                margin-top:50px;
+            }
+            #row-3-flex-container{
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-around;
+                padding-top:50px;
+                width:60%;
+                margin:auto;
+            }
+
+            #row-3-flex-container a{
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+                align-items: center;
+                justify-content: center;
+                width:170px;
+                height:170px;
+                border-radius: 50%;
+                border:1px solid white;
+                font-size: 25px;
+                color:white;
+            }
+            .imgContainer{
+                width:100%;
+                background: linear-gradient(rgba(67,206,162,1), rgba(24,90,157,1));
+                background-size:cover;
+                background-position:center;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <header>
+            <ul id="headerUl">
+                <li><a href="#">About</a></li>
+                <li><a href="#">The team</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+            <p id="headerPara">Milestone Planner<span>Track your goals easily!</span></p>
+        </header>
+        <main>
+            <div id="main-row-1">
+                <div class="widthContainer">
+                    <h1 class = "middle">What's your next goal?</h1>
+                </div>
+            </div>
+
+            <div id="main-row-2">
+                <div class="widthContainer">
+                    <form class="middle" method="POST" action="/add">
+                        <label for="milestone">Milestone Title: </label>
+                        <input type="text" id="milestone_name" name="milestone_name"><br><br>
+
+                        <label for="description">Description: </label>
+                        <input type="text" id="description" name="description"><br><br>
+
+                        <label for="s_date">Begins: </label>
+                        <input type="date" id="s_date" name="s_date"><br><br>
+
+                        <label for="e_date">Ends: </label>
+                        <input type="date" id="e_date" name="e_date"><br><br>
+
+                        <input type="submit" value="add">
+                    </form>
+                    <p class="middle" style="margin-top:20px;">You have got {{count}} milestones</p>
+                </div>
+            </div>
+
+            <div id="main-row-3" class = "imgContainer" >
+                <div class="widthContainer">
+                    <div id="row-3-flex-container">
+                        <a href="#">Plan Projects</a>
+                        <a href="#">Track Projects</a>
+                        <a href="#">Collaborate</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

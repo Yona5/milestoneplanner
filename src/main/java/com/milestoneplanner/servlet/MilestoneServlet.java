@@ -66,5 +66,26 @@ public class MilestoneServlet extends HttpServlet {
     }
 
 
+    private void addMilestone(HttpServletRequest request, HttpServletResponse response)
+            throws IOException {
+
+        String milestone_name = request.getParameter("milestone_name");
+        String milestone_des = request.getParameter("milestone_des");
+        String due_date = request.getParameter("due_Date");
+        String completion_date = request.getParameter("completion_Date");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Date dueDate = sdf.parse(due_date);
+            Date completionDate = sdf.parse(completion_date);
+            Milestone milestone = new Milestone(milestone_name, milestone_des, dueDate, completionDate);
+            h2Milestone.addMilestone(milestone);
+            response.sendRedirect("list");
+        }
+        catch (ParseException e)
+        {
+            System.out.print(e);
+        }
+    }
+
 
 }

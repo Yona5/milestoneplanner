@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/milestoneplanner.iml" filepath="$PROJECT_DIR$/.idea/milestoneplanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/milestone-planner.iml" filepath="$PROJECT_DIR$/milestone-planner.iml" />
     </modules>
   </component>
 </project>

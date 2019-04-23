@@ -13,41 +13,49 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.text.ParseException;
 import java.util.List;
 import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
 
-public class MilestoneServlet extends HttpServlet{
+
+public class MilestoneServlet extends HttpServlet {
     @SuppressWarnings("unused")
     static final Logger LOG = LoggerFactory.getLogger(MilestoneServlet.class);
 
     private final H2Milestone h2Milestone;
-    private final MustacheRender mustache;
     public MilestoneServlet(H2Milestone h2Milestone) {
-        mustache = new MustacheRender();
+        String jdbcURL = getServletContext().getInitParameter("jdbcURL");
         this.h2Milestone = h2Milestone;
     }
 
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Milestone> milestones = h2Milestone.findMilestones();
-        String html = mustache.render("indexsignup.mustache", new Result(milestones.size()));
-        response.setContentType("text/html");
-        response.setStatus(200);
-        response.getOutputStream().write(html.getBytes(Charset.forName("utf-8")));
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        doGet(request, response);
     }
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String milestone_name = request.getParameter("milestone_name");
-        Milestone milestone = new Milestone(milestone_name, milestone_name, new Date(), new Date());
-        h2Milestone.addMilestone(milestone);
-        h2Milestone.findMilestones();
-        response.sendRedirect("/index.html");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String action = request.getServletPath();
+
+
+            switch (action) {
+                case "/add":
+                    addMilestone(request, response);
+                    break;
+                case "/delete":
+                    removeMilestone(request, response);
+                    break;
+                case "/update":
+                    updateMilestone(request, response);
+                    break;
+                default:
+                    listMilestones(request, response);
+                    break;
+            }
+
     }
 
-    @Data
-    class Result {
-        private int count;
-        Result(int count) { this.count = count; }
-    }
+  
 }

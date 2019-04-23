@@ -108,5 +108,13 @@ public class MilestoneServlet extends HttpServlet {
 
     }
 
+    private void removeMilestone(HttpServletRequest request, HttpServletResponse response)
+            throws IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
 
+        Milestone milestone = new Milestone(id);
+        h2Milestone.removeMilestone(milestone);
+        response.sendRedirect("list");
+
+    }
 }

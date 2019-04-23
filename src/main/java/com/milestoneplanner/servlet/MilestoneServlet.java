@@ -57,5 +57,14 @@ public class MilestoneServlet extends HttpServlet {
 
     }
 
-  
+    private void listMilestones(HttpServletRequest request, HttpServletResponse response)
+            throws IOException, ServletException {
+        List<Milestone> listMilestone = h2Milestone.findMilestones();
+        request.setAttribute("listMilestones", listMilestone);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("Milestones.jsp");
+        dispatcher.forward(request, response);
+    }
+
+
+
 }

@@ -7,6 +7,7 @@ import com.milestoneplanner.util.mustache.MustacheRender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,10 +25,12 @@ public class MilestoneServlet extends HttpServlet {
     @SuppressWarnings("unused")
     static final Logger LOG = LoggerFactory.getLogger(MilestoneServlet.class);
 
-    private final H2Milestone h2Milestone;
-    public MilestoneServlet(H2Milestone h2Milestone) {
+    private H2Milestone h2Milestone;
+    public void init() {
         String jdbcURL = getServletContext().getInitParameter("jdbcURL");
-        this.h2Milestone = h2Milestone;
+        String jdbcUsername = getServletContext().getInitParameter("jdbcUsername");
+        String jdbcPassword = getServletContext().getInitParameter("jdbcPassword");
+        h2Milestone = H2Milestone(jdbcURL, jdbcUsername, jdbcPassword);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -43,6 +46,9 @@ public class MilestoneServlet extends HttpServlet {
             switch (action) {
                 case "/add":
                     addMilestone(request, response);
+                    break;
+                case "/edit":
+                    showEditForm(request, response);
                     break;
                 case "/delete":
                     removeMilestone(request, response);
@@ -86,7 +92,15 @@ public class MilestoneServlet extends HttpServlet {
             System.out.print(e);
         }
     }
+    private void showEditForm(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        Milestone milestone = h2Milestone.getMilestone(id);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("BookForm.jsp");
+        request.setAttribute("milestone", milestone);
+        dispatcher.forward(request, response);
 
+    }
     private void updateMilestone(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         String milestone_name = request.getParameter("milestone_name");
@@ -118,3 +132,4 @@ public class MilestoneServlet extends HttpServlet {
 
     }
 }
+

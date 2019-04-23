@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aee02a0-62b7-412a-a0b1-e323cc6fd1ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/Milestone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/Milestone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/db/H2Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/db/H2Milestone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/model/Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/model/Milestone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,107 +28,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/util.mustache/MustacheRender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="46" column="57" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java">
+        <entry file="file://$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+            <state relative-caret-position="-393">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#3063#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/Milestone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/milestone.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -197,90 +99,125 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="util.mustache" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="mustache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WDP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WDP2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -290,9 +227,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554737081860" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -347,16 +286,18 @@
       <workItem from="1554724486685" duration="570000" />
       <workItem from="1554725103227" duration="2267000" />
       <workItem from="1554727766634" duration="4340000" />
+      <workItem from="1556024400631" duration="786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43480000" />
+    <option name="totallyTimeSpent" value="44266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28025937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,30 +361,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/milestone.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="391">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/Milestone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/util.mustache/MustacheRender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
+        <state relative-caret-position="238">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -453,8 +390,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="646">
           <caret line="46" column="57" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/Milestone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/milestone.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -468,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -485,22 +446,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        <state relative-caret-position="-393">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3063#0" expanded="true" />
           </folding>
         </state>
       </provider>

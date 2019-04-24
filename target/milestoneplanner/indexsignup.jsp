@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,21 +24,21 @@
 
     <!-- // PLUGINS (css files) // -->
 
-    <link href="assets/js/plugins/bootsnav_files/skins/color.css" rel="stylesheet">
+    <link href="../js/plugins/bootsnav_files/skins/color.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/bootsnav_files/css/animate.css" rel="stylesheet">
+    <link href="../js/plugins/bootsnav_files/css/animate.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/bootsnav_files/css/bootsnav.css" rel="stylesheet">
+    <link href="../js/plugins/bootsnav_files/css/bootsnav.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/bootsnav_files/css/overwrite.css" rel="stylesheet">
+    <link href="../js/plugins/bootsnav_files/css/overwrite.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="../js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="../js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="../js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
 
-    <link href="assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">
+    <link href="../js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">
 
     <!--// ICONS //-->
 
@@ -46,9 +48,9 @@
 
     <!--// BOOTSTRAP & Main //-->
 
-    <link href="assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="./views/assets/css/main.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
 
     </head>
 
@@ -269,19 +271,19 @@
 
             <!-- Include all compiled plugins (below), or include individual files as needed -->
 
-            <script src="assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <script src="../bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
-            <script src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+            <script src="../js/plugins/owl-carousel/owl.carousel.min.js"></script>
 
-            <script src="assets/js/plugins/bootsnav_files/js/bootsnav.js"></script>
+            <script src="../js/plugins/bootsnav_files/js/bootsnav.js"></script>
 
-            <script src="assets/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js"></script>
+            <script src="../js/plugins/typed.js-master/typed.js-master/dist/typed.min.js"></script>
 
             <script src="https://maps.googleapis.com/maps/api/js"></script>
 
-            <script src="assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+            <script src="../js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-            <script src="assets/js/main.js"></script>
+            <script src="../js/main.js"></script>
 
     </body>
 

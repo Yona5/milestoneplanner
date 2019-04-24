@@ -3,10 +3,10 @@ package com.milestoneplanner.servlet;
 import lombok.Data;
 import com.milestoneplanner.db.H2Milestone;
 import com.milestoneplanner.model.Milestone;
-import com.milestoneplanner.util.mustache.MustacheRender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+import javax.servlet.RequestDispatcher;
+import java.text.SimpleDateFormat;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -18,6 +18,7 @@ import java.text.ParseException;
 import java.util.List;
 import java.util.Date;
 import java.text.SimpleDateFormat;
+import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
 
@@ -25,10 +26,12 @@ public class MilestoneServlet extends HttpServlet {
     @SuppressWarnings("unused")
     static final Logger LOG = LoggerFactory.getLogger(MilestoneServlet.class);
 
-    private H2Milestone h2Milestone;
-    public void init() {
+    private H2Milestone h2Milestone = new H2Milestone();
+
         String jdbcURL = getServletContext().getInitParameter("jdbcURL");
-    }
+
+
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -94,6 +97,7 @@ public class MilestoneServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Milestone milestone = h2Milestone.getMilestone(id);
         RequestDispatcher dispatcher = request.getRequestDispatcher("editingForm.jsp");
+
         request.setAttribute("milestone", milestone);
         dispatcher.forward(request, response);
 
@@ -102,21 +106,23 @@ public class MilestoneServlet extends HttpServlet {
             throws IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         String milestone_name = request.getParameter("milestone_name");
-        String milestone_des = request.getParameter("milestone_des");
-        String due_date = request.getParameter("due_Date");
-        String completion_date = request.getParameter("completion_Date");
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        try {
-            Date dueDate = sdf.parse(due_date);
-            Date completionDate = sdf.parse(completion_date);
-            Milestone milestone = new Milestone(id ,milestone_name, milestone_des, dueDate, completionDate);
-            h2Milestone.editMilestone(milestone);
-            response.sendRedirect("list");
+
+        String milestone_name = request.getParameter("milestone_name");
+
+        String dd_str = request.getParameter("dd");
+        String cd_str = request.getParameter("cd");
+        System.out.println(dd_str);
+        try{
+            Date dd = new SimpleDateFormat("dd/MM/yyyy").parse(dd_str);
+            Date cd =new SimpleDateFormat("dd/MM/yyyy").parse(cd_str);
+            Milestone milestone = new Milestone(milestone_name, milestone_name, dd, cd);
+            h2Milestone.addMilestone(milestone);
+        }catch(ParseException ex){
+            System.out.println(ex);
         }
-        catch (ParseException e)
-        {
-            System.out.print(e);
-        }
+        response.sendRedirect("list");
+
+
 
     }
 

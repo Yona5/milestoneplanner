@@ -1,11 +1,13 @@
 package com.milestoneplanner.db;
 
+import com.milestoneplanner.model.Milestone;
 import com.milestoneplanner.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.sql.*;
+import java.util.Date;
 import java.util.Scanner;
 
 public class H2User implements AutoCloseable{
@@ -62,6 +64,27 @@ public class H2User implements AutoCloseable{
             throw new RuntimeException(e);
         }
     }
+
+    public boolean getUser(User u) {
+        String email = null;
+        String password = null;
+        final String ADD_USER_QUERY = "SELECT * FROM user WHERE email = ?";
+        try (PreparedStatement ps = connection.prepareStatement(ADD_USER_QUERY)) {
+            ps.setString(1, u.getEmail());
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                email = rs.getString("email");
+                password = rs.getString("password");
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        if(u.getPassword().equals(password)){
+            return true;
+        }
+        return false;
+    }
+
 
     private void loadResource(String name) {
         try {

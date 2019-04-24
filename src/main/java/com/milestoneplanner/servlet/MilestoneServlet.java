@@ -23,6 +23,7 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
+import javax.servlet.annotation.WebServlet;
 
 public class MilestoneServlet extends HttpServlet{
     @SuppressWarnings("unused")
@@ -36,7 +37,7 @@ public class MilestoneServlet extends HttpServlet{
     //private H2Milestone h2Milestone = new H2Milestone();
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String milestone_name = request.getParameter("milestone_name");
+        doGet(request, response);
     }
 
     @Override
@@ -64,12 +65,10 @@ public class MilestoneServlet extends HttpServlet{
 
     }
 
-    private void listMilestones(HttpServletRequest request, HttpServletResponse response)
-            throws IOException, ServletException {
+    private void listMilestones(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         List<Milestone> listMilestone = h2Milestone.findMilestones();
         request.setAttribute("listMilestones", listMilestone);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("index_milestones.jsp");
-        dispatcher.forward(request, response);
+        request.getRequestDispatcher("../index_milestones.jsp").forward(request, response);
     }
 
 
@@ -93,8 +92,7 @@ public class MilestoneServlet extends HttpServlet{
         }
     }
 
-    private void showEditForm(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    private void showEditForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         Milestone milestone = h2Milestone.getMilestone(id);
         RequestDispatcher dispatcher = request.getRequestDispatcher("editingForm.jsp");
@@ -103,8 +101,7 @@ public class MilestoneServlet extends HttpServlet{
         dispatcher.forward(request, response);
 
     }
-    private void updateMilestone(HttpServletRequest request, HttpServletResponse response)
-            throws IOException {
+    private void updateMilestone(HttpServletRequest request, HttpServletResponse response) throws IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         String milestone_name = request.getParameter("milestone_name");
 
@@ -114,8 +111,7 @@ public class MilestoneServlet extends HttpServlet{
         response.sendRedirect("/index.html");
     }
     // Remove a Milestone from the database and relisting
-    private void removeMilestone(HttpServletRequest request, HttpServletResponse response)
-            throws IOException {
+    private void removeMilestone(HttpServletRequest request, HttpServletResponse response) throws IOException {
         int id = Integer.parseInt(request.getParameter("id"));
 
         Milestone milestone = new Milestone(id);

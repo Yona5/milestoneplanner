@@ -50,7 +50,7 @@ public class Runner {
     }
     public class LoginService{
         public boolean isUserValid(String user, String password) {
-            if (user.equals("in28Minutes") && password.equals("dummy"))
+            if (user.equals("user") && password.equals("password"))
                 return true;
 
 

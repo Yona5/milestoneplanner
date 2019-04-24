@@ -51,7 +51,17 @@ public class H2User implements AutoCloseable{
 
     public void addUser(User user) {
 
-        //implement the code that checks if the email address already exists in the db
+        final String GET_EMAIL_QUERY = "SELECT email FROM user WHERE email = ?";
+        //return, if email already exists
+        try (PreparedStatement p = connection.prepareStatement(GET_EMAIL_QUERY)) {
+            p.setString(1, user.getEmail());
+            ResultSet r = p.executeQuery();
+            while (r.next()) {
+                return;
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
 
         final String ADD_USER_QUERY = "INSERT INTO user (fName, lName, email, password) VALUES (?,?,?,?)";
         try (PreparedStatement ps = connection.prepareStatement(ADD_USER_QUERY)) {

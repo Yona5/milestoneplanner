@@ -7,150 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a40d475-7149-4116-8291-22444264975d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/milestoneplanner_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/milestoneplanner_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/MilestoneServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/util.mustache/MustacheRender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/milestone-planner.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/particales-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/css/bootsnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/css/overwrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/images/brand/logo-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/images/brand/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/images/thumb/thumb01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/images/thumb/thumb02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/images/thumb/thumb03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/js/bootsnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/bootsnav_files/skins/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/AjaxLoader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/owl.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/owl-carousel/owl.transitions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/particles.js-master/particles.js-master/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/particles.js-master/particles.js-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/particles.js-master/particles.js-master/particles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/particles.js-master/particles.js-master/particles.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/typed.js-master/typed.js-master/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/js/plugins/typed.js-master/typed.js-master/js/typed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/sass/partials/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/sass/partials/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/sass/partials/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/sass/partials/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/assets/sass/partials/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/index.mustache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Templates/indexsignup.mustache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet$Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet$Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/util/mustache/MustacheRender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/particales-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/css/bootsnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/css/overwrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/images/brand/logo-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/images/brand/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/images/thumb/thumb01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/images/thumb/thumb02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/images/thumb/thumb03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/js/bootsnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/bootsnav_files/skins/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/AjaxLoader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/owl.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/owl-carousel/owl.transitions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/particles.js-master/particles.js-master/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/particles.js-master/particles.js-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/particles.js-master/particles.js-master/particles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/particles.js-master/particles.js-master/particles.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/typed.js-master/typed.js-master/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/js/plugins/typed.js-master/typed.js-master/js/typed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/sass/partials/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/sass/partials/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/sass/partials/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/sass/partials/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/assets/sass/partials/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/html/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/html/project.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/html/project_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/index.mustache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/indexsignup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/indexsignup.mustache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+            <state relative-caret-position="155">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -383,7 +240,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556110796683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556111939058" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14440826" />
@@ -407,7 +264,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.17">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.milestoneplanner.servlet.Runner" />
       <module name="milestoneplanner" />
       <extension name="coverage">
@@ -522,11 +379,6 @@
       <item itemvalue="Maven.milestone-planner [tomcat7:run]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.17" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Runner" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -544,17 +396,18 @@
       <workItem from="1556032792302" duration="7596000" />
       <workItem from="1556043122087" duration="695000" />
       <workItem from="1556043932821" duration="2323000" />
-      <workItem from="1556048104315" duration="32350000" />
+      <workItem from="1556048104315" duration="32800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10907000" />
+    <option name="totallyTimeSpent" value="11357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23054755" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23054755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,7 +418,7 @@
       <window_info anchor="bottom" id="Application Servers" weight="0.32955974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49927953" weight="0.32902297" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49927953" visible="true" weight="0.37232703" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49927953" visible="true" weight="0.37232703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -721,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        <state relative-caret-position="155">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

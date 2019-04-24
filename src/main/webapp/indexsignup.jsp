@@ -48,7 +48,7 @@
 
     <link href="assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="../views/assets/css/main.css" rel="stylesheet">
+    <link href="./views/assets/css/main.css" rel="stylesheet">
 
     </head>
 

@@ -50,6 +50,7 @@ public class H2Project implements AutoCloseable{
         }
     }
 
+    //add project to the database
     public void addProject(Project project) {
         final String ADD_PROJECT_QUERY = "INSERT INTO project (pName, description) VALUES (?,?)";
         try (PreparedStatement ps = connection.prepareStatement(ADD_PROJECT_QUERY)) {
@@ -61,6 +62,7 @@ public class H2Project implements AutoCloseable{
         }
     }
 
+    //list all the projects
     public List<Project> findProjects() {
         final String LIST_PROJECTS_QUERY = "SELECT pName  FROM project";
         List<Project> out = new ArrayList<>();

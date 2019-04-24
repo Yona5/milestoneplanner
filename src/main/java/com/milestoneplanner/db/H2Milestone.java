@@ -54,6 +54,7 @@ public class H2Milestone implements AutoCloseable{
         }
     }
 
+    //add milestone to the database
     public void addMilestone(Milestone milestone) {
         final String ADD_MILESTONE_QUERY = "INSERT INTO milestone (msName, description, dueDate, completionDate) VALUES (?,?,?,?)";
         try (PreparedStatement ps = connection.prepareStatement(ADD_MILESTONE_QUERY)) {
@@ -74,6 +75,7 @@ public class H2Milestone implements AutoCloseable{
         }
     }
 
+    //edit the milestone
     public void editMilestone(Milestone milestone) {
         final String EDIT_MILESTONE_QUERY = "UPDATE milestone SET msName = ?, description = ?, " +
                 "dueDate = ?, completionDate = ? WHERE id = ?";
@@ -96,6 +98,7 @@ public class H2Milestone implements AutoCloseable{
         }
     }
 
+    // return milestone from the database
     public Milestone getMilestone(int m_id) {
         Milestone milestone = null;
         final String GET_MILESTONE_QUERY = "SELECT * FROM milestone WHERER id = ?";
@@ -116,6 +119,7 @@ public class H2Milestone implements AutoCloseable{
         return milestone;
     }
 
+    // remove milestone from the database
     public void removeMilestone(Milestone milestone) {
         final String REMOVE_MILESTONE_QUERY = "DELETE FROM milestone WHERE WHERE id = ?";
         try (PreparedStatement ps = connection.prepareStatement(REMOVE_MILESTONE_QUERY)) {
@@ -126,6 +130,7 @@ public class H2Milestone implements AutoCloseable{
         }
     }
 
+    //list milestones
     public List<Milestone> findMilestones() {
         final String LIST_MILESTONES_QUERY = "SELECT * FROM milestone";
         List<Milestone> out = new ArrayList<>();

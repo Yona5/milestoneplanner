@@ -48,7 +48,7 @@ public class H2User implements AutoCloseable{
             throw new RuntimeException(e);
         }
     }
-
+    //add user to the database
     public void addUser(User user) {
 
         final String GET_EMAIL_QUERY = "SELECT email FROM user WHERE email = ?";
@@ -75,6 +75,7 @@ public class H2User implements AutoCloseable{
         }
     }
 
+    //verify user
     public boolean getUser(User u) {
         String email = null;
         String password = null;

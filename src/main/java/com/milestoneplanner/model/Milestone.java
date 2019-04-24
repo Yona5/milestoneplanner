@@ -68,7 +68,5 @@ public class Milestone {
         this.completionDate = completionDate;
     }
 
-    public int getId(){
-        return this.id;
-    }
+    public int getId() { return this.id; }
 }

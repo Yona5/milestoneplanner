@@ -29,12 +29,6 @@ public class H2Milestone implements AutoCloseable{
         return DriverManager.getConnection(db, "sa", "");  // default password, ok for embedded.
     }
 
-//    public H2Milestone(String jdbcURL, String jdbcUsername, String jdbcPassword) {
-//        this.jdbcURL = jdbcURL;
-//        this.jdbcUsername = jdbcUsername;
-//        this.jdbcPassword = jdbcPassword;
-//    }
-
     public H2Milestone() {
         this(FILE);
     }
@@ -95,28 +89,37 @@ public class H2Milestone implements AutoCloseable{
             ps.setString(2, milestone.getDescription());
             ps.setDate(3, java.sql.Date.valueOf(dd_str));
             ps.setDate(4, java.sql.Date.valueOf(cd_str));
-            ps.setInt(5, milestone.getId()); // why set not get
+            ps.setInt(5, milestone.getId());
             ps.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public Milestone getMilestone(int id) {
+    public Milestone getMilestone(int m_id) {
+        Milestone milestone = null;
         final String GET_MILESTONE_QUERY = "SELECT * FROM milestone WHERER id = ?";
         try (PreparedStatement ps = connection.prepareStatement(GET_MILESTONE_QUERY)) {
-//            ps.setString(1, milestone.getName()); // come over here
-            ps.execute();
+            ps.setInt(1, m_id); // come over here
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String name = rs.getString("msName");
+                String desc = rs.getString("description");
+                Date dd = rs.getDate("dueDate");
+                Date cd = rs.getDate("completionDate");
+                milestone = new Milestone(name, desc, dd, cd, id);
+            }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        return new Milestone(id); //finish it tomorrow
+        return milestone;
     }
 
     public void removeMilestone(Milestone milestone) {
         final String REMOVE_MILESTONE_QUERY = "DELETE FROM milestone WHERE WHERE id = ?";
         try (PreparedStatement ps = connection.prepareStatement(REMOVE_MILESTONE_QUERY)) {
-            ps.setString(1, milestone.getDescription()); // come back to this
+            ps.setInt(1, milestone.getId()); // come back to this
             ps.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);

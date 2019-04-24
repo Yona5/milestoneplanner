@@ -156,9 +156,6 @@
 
                     <p>Plan your milestones well this tool, and experience the potential to delivery every
                         single goal on time. Unleash your potential!</p>
-
-                    <a href="#" class="btn btn-transparent">Get Started</a>
-
                 </div>
 
                 <!-- Sign Up -->
@@ -173,7 +170,13 @@
 
                         <div class="form-group">
 
-                            <input type="text" class="form-control" placeholder="Full Name" required="required">
+                            <input type="text" class="form-control" placeholder="First Name" required="required">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" placeholder="Last Name" required="required">
 
                         </div>
 
@@ -185,13 +188,7 @@
 
                         <div class="form-group">
 
-                            <input type="text" class="form-control" placeholder="Password" required="required">
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <input type="text" class="form-control" placeholder="Repeat Password" required="required">
+                            <input type="password" class="form-control" placeholder="Password" required="required">
 
                         </div>
 

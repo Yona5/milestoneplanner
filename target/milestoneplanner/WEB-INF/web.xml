@@ -6,7 +6,7 @@
     <display-name>Milestone Planner</display-name>
 
     <welcome-file-list>
-        <welcome-file>index_milestones.jsp</welcome-file>
+        <welcome-file>indexsignup.jsp</welcome-file>
     </welcome-file-list>
 
     <servlet-mapping>

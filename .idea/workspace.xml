@@ -8,134 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1a40d475-7149-4116-8291-22444264975d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/html/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/html/project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/project.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/img/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/particales-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/particales-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/Magnific-Popup-master/Magnific-Popup-master/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/Magnific-Popup-master/Magnific-Popup-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/css/bootsnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/css/bootsnav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/css/overwrite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/css/overwrite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/images/brand/logo-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/images/brand/logo-black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/images/brand/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/images/brand/logo-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/images/thumb/thumb01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/images/thumb/thumb01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/images/thumb/thumb02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/images/thumb/thumb02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/images/thumb/thumb03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/images/thumb/thumb03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/js/bootsnav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/js/bootsnav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/bootsnav_files/skins/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootsnav_files/skins/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/AjaxLoader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/AjaxLoader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/grabbing.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/grabbing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/owl.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/owl.theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/owl-carousel/owl.transitions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/owl-carousel/owl.transitions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/particles.js-master/particles.js-master/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/particles.js-master/particles.js-master/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/particles.js-master/particles.js-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/particles.js-master/particles.js-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/particles.js-master/particles.js-master/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/particles.js-master/particles.js-master/particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/particles.js-master/particles.js-master/particles.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/particles.js-master/particles.js-master/particles.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/typed.js-master/typed.js-master/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/typed.js-master/typed.js-master/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/js/plugins/typed.js-master/typed.js-master/js/typed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/typed.js-master/typed.js-master/js/typed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/sass/partials/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sass/partials/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/sass/partials/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sass/partials/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/sass/partials/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sass/partials/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/sass/partials/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sass/partials/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/assets/sass/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sass/partials/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/html/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/html/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/html/project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/html/project.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/indexsignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/indexsignup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/particales-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/css/bootsnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/css/overwrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/images/brand/logo-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/images/brand/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/images/thumb/thumb01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/images/thumb/thumb02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/images/thumb/thumb03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/js/bootsnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/bootsnav_files/skins/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/AjaxLoader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/owl.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/owl-carousel/owl.transitions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/particles.js-master/particles.js-master/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/particles.js-master/particles.js-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/particles.js-master/particles.js-master/particles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/particles.js-master/particles.js-master/particles.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/typed.js-master/typed.js-master/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/js/plugins/typed.js-master/typed.js-master/js/typed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/sass/partials/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/sass/partials/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/sass/partials/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/sass/partials/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/assets/sass/partials/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/html/dashboard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/views/html/project.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/views/html/dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/views/html/project.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,29 +28,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index_milestones.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="115">
               <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/project.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="246">
+              <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-880">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="184">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -183,7 +62,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -191,20 +74,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1455">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="2070">
+              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -212,17 +86,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5204">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="177">
+              <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/add-milestone.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-443" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -234,6 +115,12 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>repeat</find>
+      <find>add</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -257,8 +144,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index_milestones.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" />
       </list>
     </option>
@@ -312,6 +201,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milestoneplanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milestoneplanner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -320,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556118648025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556124641258" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.267101" />
@@ -477,12 +388,12 @@
       <workItem from="1556032792302" duration="7596000" />
       <workItem from="1556043122087" duration="695000" />
       <workItem from="1556043932821" duration="2323000" />
-      <workItem from="1556048104315" duration="36296000" />
+      <workItem from="1556048104315" duration="38880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14853000" />
+    <option name="totallyTimeSpent" value="17437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -578,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -618,37 +522,11 @@
         <state relative-caret-position="-3266" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index_milestones.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="62" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="62" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5204">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/add-milestone.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-443" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
@@ -661,16 +539,58 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/logout.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1455">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="2070">
+          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/add-milestone.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index_milestones.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

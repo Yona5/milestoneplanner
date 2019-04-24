@@ -28,9 +28,6 @@ public class MilestoneServlet extends HttpServlet {
     private H2Milestone h2Milestone;
     public void init() {
         String jdbcURL = getServletContext().getInitParameter("jdbcURL");
-        String jdbcUsername = getServletContext().getInitParameter("jdbcUsername");
-        String jdbcPassword = getServletContext().getInitParameter("jdbcPassword");
-        h2Milestone = H2Milestone(jdbcURL, jdbcUsername, jdbcPassword);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

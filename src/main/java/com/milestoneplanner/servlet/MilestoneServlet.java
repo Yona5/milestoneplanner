@@ -67,7 +67,7 @@ public class MilestoneServlet extends HttpServlet {
             throws IOException, ServletException {
         List<Milestone> listMilestone = h2Milestone.findMilestones();
         request.setAttribute("listMilestones", listMilestone);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("Milestones.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("index_milestones.jsp");
         dispatcher.forward(request, response);
     }
 
@@ -96,13 +96,14 @@ public class MilestoneServlet extends HttpServlet {
             throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         Milestone milestone = h2Milestone.getMilestone(id);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("BookForm.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("editingForm.jsp");
         request.setAttribute("milestone", milestone);
         dispatcher.forward(request, response);
 
     }
     private void updateMilestone(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
         String milestone_name = request.getParameter("milestone_name");
         String milestone_des = request.getParameter("milestone_des");
         String due_date = request.getParameter("due_Date");
@@ -111,7 +112,7 @@ public class MilestoneServlet extends HttpServlet {
         try {
             Date dueDate = sdf.parse(due_date);
             Date completionDate = sdf.parse(completion_date);
-            Milestone milestone = new Milestone(milestone_name, milestone_des, dueDate, completionDate);
+            Milestone milestone = new Milestone(id ,milestone_name, milestone_des, dueDate, completionDate);
             h2Milestone.editMilestone(milestone);
             response.sendRedirect("list");
         }

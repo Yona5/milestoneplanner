@@ -29,12 +29,12 @@ public class H2Milestone implements AutoCloseable{
         return DriverManager.getConnection(db, "sa", "");  // default password, ok for embedded.
     }
 
-    public H2Milestone(String jdbcURL, String jdbcUsername, String jdbcPassword) {
-        this.jdbcURL = jdbcURL;
-        this.jdbcUsername = jdbcUsername;
-        this.jdbcPassword = jdbcPassword;
-    }
-    
+//    public H2Milestone(String jdbcURL, String jdbcUsername, String jdbcPassword) {
+//        this.jdbcURL = jdbcURL;
+//        this.jdbcUsername = jdbcUsername;
+//        this.jdbcPassword = jdbcPassword;
+//    }
+
     public H2Milestone() {
         this(FILE);
     }
@@ -65,11 +65,11 @@ public class H2Milestone implements AutoCloseable{
         try (PreparedStatement ps = connection.prepareStatement(ADD_MILESTONE_QUERY)) {
             Date dd = milestone.getDueDate();
             Date cd = milestone.getCompletionDate();
-            System.out.println(dd + " " + cd);
+//            System.out.println(dd + " " + cd);
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
             String dd_str = formatter.format(dd);
             String cd_str = formatter.format(cd);
-            System.out.println(dd_str + " " + cd_str);
+//            System.out.println(dd_str + " " + cd_str);
             ps.setString(1, milestone.getName());
             ps.setString(2, milestone.getDescription());
             ps.setDate(3, java.sql.Date.valueOf(dd_str));
@@ -80,29 +80,42 @@ public class H2Milestone implements AutoCloseable{
         }
     }
 
-    public void editMsName(Milestone milestone) {
-        final String EDIT_MILESTONE_QUERY = "UPDATE milestone SET msName = ? WHERE id = ?";
+    public void editMilestone(Milestone milestone) {
+        final String EDIT_MILESTONE_QUERY = "UPDATE milestone SET msName = ?, description = ?, " +
+                "dueDate = ?, completionDate = ? WHERE id = ?";
         try (PreparedStatement ps = connection.prepareStatement(EDIT_MILESTONE_QUERY)) {
+            Date dd = milestone.getDueDate();
+            Date cd = milestone.getCompletionDate();
+//            System.out.println(dd + " " + cd);
+            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+            String dd_str = formatter.format(dd);
+            String cd_str = formatter.format(cd);
+
             ps.setString(1, milestone.getName());
+            ps.setString(2, milestone.getDescription());
+            ps.setDate(3, java.sql.Date.valueOf(dd_str));
+            ps.setDate(4, java.sql.Date.valueOf(cd_str));
+            ps.setInt(5, milestone.getId()); // why set not get
             ps.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public void editMsDescription(Milestone milestone) {
-        final String EDIT_MILESTONE_QUERY = "UPDATE milestone SET description = ? WHERE id = ?";
-        try (PreparedStatement ps = connection.prepareStatement(EDIT_MILESTONE_QUERY)) {
-            ps.setString(1, milestone.getDescription());
+    public Milestone getMilestone(int id) {
+        final String GET_MILESTONE_QUERY = "SELECT * FROM milestone WHERER id = ?";
+        try (PreparedStatement ps = connection.prepareStatement(GET_MILESTONE_QUERY)) {
+//            ps.setString(1, milestone.getName()); // come over here
             ps.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        return new Milestone(id); //finish it tomorrow
     }
 
     public void removeMilestone(Milestone milestone) {
-        final String EDIT_MILESTONE_QUERY = "DELETE FROM milestone WHERE WHERE id = ?";
-        try (PreparedStatement ps = connection.prepareStatement(EDIT_MILESTONE_QUERY)) {
+        final String REMOVE_MILESTONE_QUERY = "DELETE FROM milestone WHERE WHERE id = ?";
+        try (PreparedStatement ps = connection.prepareStatement(REMOVE_MILESTONE_QUERY)) {
             ps.setString(1, milestone.getDescription()); // come back to this
             ps.execute();
         } catch (SQLException e) {
@@ -111,7 +124,7 @@ public class H2Milestone implements AutoCloseable{
     }
 
     public List<Milestone> findMilestones() {
-        final String LIST_MILESTONES_QUERY = "SELECT msName  FROM milestone WHERE completionDate != dueDate";
+        final String LIST_MILESTONES_QUERY = "SELECT * FROM milestone";
         List<Milestone> out = new ArrayList<>();
         try (PreparedStatement ps = connection.prepareStatement(LIST_MILESTONES_QUERY)) {
             ResultSet rs = ps.executeQuery();

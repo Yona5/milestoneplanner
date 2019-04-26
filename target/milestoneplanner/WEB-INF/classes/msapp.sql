@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS milestone (
   description VARCHAR(255),
   dueDate DATE,
   completionDate DATE,
---   foreign key (id) references project(id)
+  email VARCHAR(255),
+--   foreign key (email) references usertable(email)
 );
 

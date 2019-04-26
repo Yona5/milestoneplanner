@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <html>
 <head>
     <meta charset="utf-8">
@@ -33,9 +35,6 @@
                         <li><a href="#">Project 3</a></li>
                     </ul>
                 </li>
-                <li> <i class="material-icons">track_changes</i><span>Collaborators</span></li>
-                <li> <i class="material-icons">developer_board</i><span>Timeframes</span></li>
-                <li> <i class="material-icons">forum</i><span>Message</span></li>
             </ul>
         </div>
     </div>
@@ -44,66 +43,54 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand">Projects Dashboard</a>
             <form class="form-inline">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Create project</button>
+                <a class="btn btn-primary" href="/logout">Logout<a/>
                 <!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->
             </form>
         </nav>
         <div class="description">Hey {{username}}. Here are your project milestones</div>
         <div class="row column">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#basicExampleModal">
+            <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#basicExampleModal">
                 Add a milestone
             </button>
+
+            <%--<form action="ListServlet" class="form-inline" method="post">--%>
+                <%--<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">List Mile</button>--%>
+                <%--<!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->--%>
+            <%--</form>--%>
         </div>
         <div class="row">
-            <div class="half">
-                <div class="sub-title">Priority Project</div>
-                <div class="stock">
-                    <div class="stock-logo apple"><i class="fa fa-inverse fa-apple"></i></div>
-                    <div class="stock-info">
-                        <div class="stock-name">Project 4</div>
-                        <div class="stock-fullname">Short description of this project</div>
-                    </div>
-                </div>
-                <div class="stock">
-                    <div class="stock-logo facebook"><i class="fa fa-inverse fa-facebook"></i></div>
-                    <div class="stock-info">
-                        <div class="stock-name">Project 5</div>
-                        <div class="stock-fullname">Short description of this project</div>
-                    </div>
-                </div>
-                <div class="stock">
-                    <div class="stock-logo facebook"><i class="fa fa-inverse fa-facebook"></i></div>
-                    <div class="stock-info">
-                        <div class="stock-name">Project 5</div>
-                        <div class="stock-fullname">Short description of this project</div>
-                    </div>
-                </div>
-                <div class="stock">
-                    <div class="stock-logo facebook"><i class="fa fa-inverse fa-facebook"></i></div>
-                    <div class="stock-info">
-                        <div class="stock-name">Project 5</div>
-                        <div class="stock-fullname">Short description of this project</div>
-                    </div>
-                </div>
-            </div>
+            <center>
+                <h5>Project Milestones</h5>
+            </center>
+            <div align="center">
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Actual Date</th>
+                        <th>Completion Date</th>
+                        <th>Action</th>
+                    </tr>
+                    <c:forEach  items="${listMilestone}" var="milestone">
+                        <tr>
+                            <td> ${milestone.id} </td>
+                            <td>  ${milestone.name} </td>
+                            <td> ${milestone.description} </td>
+                            <td>${milestone.dueDate}</td>
+                            <td>${milestone.completionDate}</td>
+                            <td>
 
-            <div class="half">
-                <div class="sub-title">Finished projects</div>
-                <div class="stock">
-                    <div class="stock-logo twitter"><i class="fa fa-inverse fa-twitter"></i></div>
-                    <div class="stock-info">
-                        <div class="stock-name">Project  6</div>
-                        <div class="stock-fullname">Short intro of the Milestone</div>
-                    </div>
-                </div>
-                <div class="stock">
-                    <div class="stock-logo paypal"><i class="fa fa-inverse fa-paypal"></i></div>
-                    <div class="stock-info">
-                        <div class="stock-name">Project 7</div>
-                        <div class="stock-fullname">Short description of the MIlestone</div>
-                    </div>
-                </div>
+                                <button type="button" data-toggle="modal" data-target="#editModal" value='${milestone.id}' onclick="myFunction(this)">Edit</button>
+                                <%--<a href="/EditServlet?id=${milestone.id}">Edit</a>--%>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <a  href="/DeleteServlet?id=${milestone.id}">Delete</a >
+                            </td>
+                        </tr>
+
+                    </c:forEach>
+                </table>
             </div>
         </div>
     </div>
@@ -139,6 +126,8 @@
             </div>
         </div>
             <!-- End of modal for creating project-->
+
+
 <!-- Modal for adding a milestone -->
 
         <!-- Modal -->
@@ -153,29 +142,86 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form action="AddServlet" method="POST">
                             <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Subject</label>
-                                <input type="text" class="form-control" id="recipient-name">
+                                <label for="recipient-name" class="col-form-label">Name</label>
+                                <input type="text" name="milestone_name" class="form-control" id="recipient-name">
                             </div>
                             <div class="form-group">
-                                <label for="message-text" class="col-form-label">Message:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
+                                <label for="recipient-name" class="col-form-label">Description</label>
+                                <input type="text" name="milestone_des" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Due Date</label>
+                                <input type="date" name="due_date" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Completion Date</label>
+                                <input type="date" name="completion_date" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Add</button>
                             </div>
                         </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
+
                 </div>
             </div>
         </div>
 
+<%--<c:forEach  items="${listMilestone}" var="milestone">--%>
+<!-- edit Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Milestone</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="EditServlet" method="POST">
+
+                        <input id = "hidden" type="hidden" name="id" />
+
+                    <%--<input type="hidden" name="id" value='${milestone.id}'  />--%>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Name</label>
+                        <input type="text" name="milestone_name" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Description</label>
+                        <input type="text" name="milestone_des" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Due Date</label>
+                        <input type="date" name="due_date" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Completion Date</label>
+                        <input type="date" name="completion_date" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<%--</c:forEach>--%>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
-
+    function myFunction(thiss) {
+        var val = thiss.getAttribute("value");
+        console.log(val);
+        document.getElementById("hidden").setAttribute("value", val);
+    }
     $(function () {
 
         $('.showButton').click(function () {

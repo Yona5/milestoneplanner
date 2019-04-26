@@ -17,12 +17,14 @@ public class Milestone {
     private Date dueDate;
     private Date completionDate;
     private int id;
+    private String email;
 
-    public Milestone(String name, String description, Date dueDate, Date completionDate){
+    public Milestone(String name, String description, Date dueDate, Date completionDate, String email){
         this.name = name;
         this.description = description;
         this.dueDate = dueDate;
         this.completionDate = completionDate;
+        this.email = email;
     }
 
     public Milestone(String name, String description, Date dueDate, Date completionDate, int id){
@@ -30,6 +32,7 @@ public class Milestone {
         this.description = description;
         this.dueDate = dueDate;
         this.completionDate = completionDate;
+        this.id = id;
     }
 
     public Milestone(int id){
@@ -69,4 +72,6 @@ public class Milestone {
     }
 
     public int getId() { return this.id; }
+
+    public String getEmail(){return this.email;}
 }

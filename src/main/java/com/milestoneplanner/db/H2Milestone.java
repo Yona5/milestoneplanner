@@ -56,7 +56,7 @@ public class H2Milestone implements AutoCloseable{
 
     //add milestone to the database
     public void addMilestone(Milestone milestone) {
-        final String ADD_MILESTONE_QUERY = "INSERT INTO milestone (msName, description, dueDate, completionDate) VALUES (?,?,?,?)";
+        final String ADD_MILESTONE_QUERY = "INSERT INTO milestone (msName, description, dueDate, completionDate, email) VALUES (?,?,?,?,?)";
         try (PreparedStatement ps = connection.prepareStatement(ADD_MILESTONE_QUERY)) {
             Date dd = milestone.getDueDate();
             Date cd = milestone.getCompletionDate();
@@ -69,7 +69,9 @@ public class H2Milestone implements AutoCloseable{
             ps.setString(2, milestone.getDescription());
             ps.setDate(3, java.sql.Date.valueOf(dd_str));
             ps.setDate(4, java.sql.Date.valueOf(cd_str));
+            ps.setString(5, milestone.getEmail());
             ps.execute();
+            ps.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -93,6 +95,7 @@ public class H2Milestone implements AutoCloseable{
             ps.setDate(4, java.sql.Date.valueOf(cd_str));
             ps.setInt(5, milestone.getId());
             ps.execute();
+            ps.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -101,7 +104,7 @@ public class H2Milestone implements AutoCloseable{
     // return milestone from the database
     public Milestone getMilestone(int m_id) {
         Milestone milestone = null;
-        final String GET_MILESTONE_QUERY = "SELECT * FROM milestone WHERER id = ?";
+        final String GET_MILESTONE_QUERY = "SELECT * FROM milestone WHERE id = ?";
         try (PreparedStatement ps = connection.prepareStatement(GET_MILESTONE_QUERY)) {
             ps.setInt(1, m_id); // come over here
             ResultSet rs = ps.executeQuery();
@@ -113,6 +116,8 @@ public class H2Milestone implements AutoCloseable{
                 Date cd = rs.getDate("completionDate");
                 milestone = new Milestone(name, desc, dd, cd, id);
             }
+            ps.close();
+            rs.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -121,21 +126,25 @@ public class H2Milestone implements AutoCloseable{
 
     // remove milestone from the database
     public void removeMilestone(Milestone milestone) {
-        final String REMOVE_MILESTONE_QUERY = "DELETE FROM milestone WHERE WHERE id = ?";
+        final String REMOVE_MILESTONE_QUERY = "DELETE FROM milestone WHERE id = ?";
         try (PreparedStatement ps = connection.prepareStatement(REMOVE_MILESTONE_QUERY)) {
             ps.setInt(1, milestone.getId()); // come back to this
             ps.execute();
+            ps.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
 
-    //list milestones
-    public List<Milestone> findMilestones() {
-        final String LIST_MILESTONES_QUERY = "SELECT * FROM milestone";
-        List<Milestone> out = new ArrayList<>();
+    //list milestonesa
+    public List<Milestone> findMilestones(String email) {
+        final String LIST_MILESTONES_QUERY = "SELECT * FROM milestone WHERE email = ? AND dueDate != completionDate";
+        List<Milestone> listMilestone = new ArrayList<>();
         try (PreparedStatement ps = connection.prepareStatement(LIST_MILESTONES_QUERY)) {
+            ps.setString(1, email);
+            System.out.println(ps);
             ResultSet rs = ps.executeQuery();
+            System.out.println(rs);
             while (rs.next()) {
                 int id = rs.getInt("id");
                 String name = rs.getString("msName");
@@ -143,12 +152,16 @@ public class H2Milestone implements AutoCloseable{
                 Date dd = rs.getDate("dueDate");
                 Date cd = rs.getDate("completionDate");
 
-                out.add(new Milestone(name, desc, dd, cd, id));
+                listMilestone.add(new Milestone(name, desc, dd, cd, id));
             }
+            ps.close();
+            rs.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        return out;
+        System.out.println(listMilestone.size());
+
+        return listMilestone;
     }
 
     private void loadResource(String name) {
@@ -156,6 +169,7 @@ public class H2Milestone implements AutoCloseable{
             String cmd = new Scanner(getClass().getResource(name).openStream()).useDelimiter("\\Z").next();
             PreparedStatement ps = connection.prepareStatement(cmd);
             ps.execute();
+            ps.close();
         } catch (SQLException | IOException e) {
             throw new RuntimeException(e);
         }

@@ -25,7 +25,7 @@ public class H2User implements AutoCloseable{
     }
 
     public H2User() {
-        this(MEMORY);
+        this(FILE);
     }
 
     public H2User(String db) {
@@ -50,26 +50,29 @@ public class H2User implements AutoCloseable{
     }
     //add user to the database
     public void addUser(User user) {
-
-        final String GET_EMAIL_QUERY = "SELECT email FROM user WHERE email = ?";
+        System.out.println("in add user");
+        final String GET_EMAIL_QUERY = "SELECT email FROM usertable WHERE email = ?";
         //return, if email already exists
         try (PreparedStatement p = connection.prepareStatement(GET_EMAIL_QUERY)) {
             p.setString(1, user.getEmail());
             ResultSet r = p.executeQuery();
             while (r.next()) {
+                System.out.println("in while loop");
                 return;
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
 
-        final String ADD_USER_QUERY = "INSERT INTO user (fName, lName, email, password) VALUES (?,?,?,?)";
+        final String ADD_USER_QUERY = "INSERT INTO usertable (fName, lName, email, password) VALUES (?,?,?,?)";
         try (PreparedStatement ps = connection.prepareStatement(ADD_USER_QUERY)) {
             ps.setString(1, user.getfName());
             ps.setString(2, user.getlName());
             ps.setString(3, user.getEmail());
             ps.setString(4, user.getPassword());
+            System.out.println("adding user");
             ps.execute();
+            System.out.println(ps);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -79,7 +82,7 @@ public class H2User implements AutoCloseable{
     public boolean getUser(User u) {
         String email = null;
         String password = null;
-        final String ADD_USER_QUERY = "SELECT * FROM user WHERE email = ?";
+        final String ADD_USER_QUERY = "SELECT * FROM usertable WHERE email = ?";
         try (PreparedStatement ps = connection.prepareStatement(ADD_USER_QUERY)) {
             ps.setString(1, u.getEmail());
             ResultSet rs = ps.executeQuery();

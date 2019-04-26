@@ -161,45 +161,25 @@
                 <!-- Sign Up -->
 
                 <div class="col-md-5 col-md-offset-1">
-
-                    <form class="signup-form">
-
+                    <form class="signup-form" action = "UserServlet" method = "POST">
                         <h2 class="text-center">Signup Now</h2>
-
                         <hr>
-
                         <div class="form-group">
-
-                            <input type="text" class="form-control" placeholder="First Name" required="required">
-
+                            <input type="text" name="first" class="form-control" placeholder="First Name" required="required">
                         </div>
-
                         <div class="form-group">
-
-                            <input type="text" class="form-control" placeholder="Last Name" required="required">
-
+                            <input type="text" name="last" class="form-control" placeholder="Last Name" required="required">
                         </div>
-
                         <div class="form-group">
-
-                            <input type="email" class="form-control" placeholder="Email Address" required="required">
-
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
                         </div>
-
                         <div class="form-group">
-
-                            <input type="password" class="form-control" placeholder="Password" required="required">
-
+                            <input type="password" name="password" class="form-control" placeholder="Password" required="required">
                         </div>
-
                         <div class="form-group text-center">
-
                             <button type="submit" class="btn btn-blue btn-block">Sign up</button>
-
                         </div>
-
                     </form>
-
                 </div>
 
             </div>
@@ -226,33 +206,23 @@
 
                 <div class="modal-body">
 
-                    <form class="signup-form">
-
+                    <form class="signup-form" action="LoginServlet" method="POST">
                         <div class="form-group">
-
-                            <input type="text" class="form-control" placeholder="User Name" required="required">
-
+                            <input type="text" name="email" class="form-control" placeholder="User email" required="required">
                         </div>
 
                         <div class="form-group">
-
-                            <input type="text" class="form-control" placeholder="Password" required="required">
-
+                            <input type="password" name="password" class="form-control" placeholder="Password" required="required">
                         </div>
 
                         <div class="form-group text-center">
-
                             <button type="submit" class="btn btn-blue btn-block">Log In</button>
-
                         </div>
-
                     </form>
 
                 </div>
 
                 <div class="modal-footer text-center">
-
-                    New here, <a href="#">Signup</a>
 
                 </div>
 

@@ -22,19 +22,14 @@
             <div class="company-description">MilestonePlanner for all your work,Witness more realtime achievements</div>
         </div>
         <div class="navigation">
-            <ul>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
-                    Create Project
-                </button>
-                <!--<li><a href="#"><i class="material-icons" data-toggle="modal" data-target="#myModal">add_circle_outline</i><span>Add New</span></a></li>-->
-                <li><i class="material-icons">view_agenda</i><span>Projects</span>
-                    <ul>
-                        <li><a class="active" href="#">Project 1</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
-                    </ul>
-                </li>
+            <ul style=" padding-left: 20px; padding-right: 20px;">
+                <form action="/ListSharedServlet" method="get">
+                    <input type="text" name="sharedLink" class="form-control" id="link" placeholder="Insert Link" required="required">
+                    <button type="submit" class="btn btn-primary btn-sm" style="margin-top: 20px;">
+                        Import
+                    </button>
+                </form>
+
             </ul>
         </div>
     </div>
@@ -43,11 +38,13 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand">Projects Dashboard</a>
             <form class="form-inline">
-                <a class="btn btn-primary" href="/logout">Logout<a/>
-                <!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->
+                <a class="btn btn-primary" style="margin-right: 20px;" href="/ShareServlet">Share<a/>
+
+                    <a class="btn btn-primary" href="/logout">Logout<a/>
+                        <!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->
             </form>
         </nav>
-        <div class="description">Hey {{username}}. Here are your project milestones</div>
+        <div id="shared">${sharedLink}</div>
         <div class="row column">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#basicExampleModal">
@@ -55,37 +52,35 @@
             </button>
 
             <%--<form action="ListServlet" class="form-inline" method="post">--%>
-                <%--<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">List Mile</button>--%>
-                <%--<!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->--%>
+            <%--<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">List Mile</button>--%>
+            <%--<!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->--%>
             <%--</form>--%>
         </div>
-        <div class="row">
-            <center>
-                <h5>Project Milestones</h5>
-            </center>
-            <div align="center">
-                <table border="1" cellpadding="5">
-                    <tr>
-                        <th>ID</th>
+        <div>
+            <div>
+                <h6>Project Milestones</h6>
+            </div>
+            <div align="left">
+                <table class="table table-bordered" border="1" cellpadding="5">
+                    <tr class=" table-primary">
                         <th>Name</th>
                         <th>Description</th>
-                        <th>Actual Date</th>
+                        <th>Start Date</th>
                         <th>Completion Date</th>
-                        <th>Action</th>
+                        <th style="text-align: center;" colspan="2">Action</th>
                     </tr>
                     <c:forEach  items="${listMilestone}" var="milestone">
                         <tr>
-                            <td> ${milestone.id} </td>
                             <td>  ${milestone.name} </td>
                             <td> ${milestone.description} </td>
                             <td>${milestone.dueDate}</td>
                             <td>${milestone.completionDate}</td>
                             <td>
 
-                                <button type="button" data-toggle="modal" data-target="#editModal" value='${milestone.id}' onclick="myFunction(this)">Edit</button>
-                                <%--<a href="/EditServlet?id=${milestone.id}">Edit</a>--%>
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                <a  href="/DeleteServlet?id=${milestone.id}">Delete</a >
+                                <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#editModal" value='${milestone.id}' onclick="myFunction(this)">Edit</button>
+                            </td>
+                            <td><%--<a href="/EditServlet?id=${milestone.id}">Edit</a>--%>
+                                <a class="btn btn-primary" href="/DeleteServlet?id=${milestone.id}">Delete</a >
                             </td>
                         </tr>
 
@@ -93,82 +88,83 @@
                 </table>
             </div>
         </div>
+
     </div>
 
 </div>
-        <!-- Modal for adding a new project-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Add a new project name:</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+<!-- Modal for adding a new project-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add a new project name:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" id="recipient-name">
                     </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                <input type="text" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Description:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
-                            </div>
-                        </form>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Description:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary">Add</button>
-                    </div>
-                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Add</button>
             </div>
         </div>
-            <!-- End of modal for creating project-->
+    </div>
+</div>
+<!-- End of modal for creating project-->
 
 
 <!-- Modal for adding a milestone -->
 
-        <!-- Modal -->
-        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">New Milestone</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="AddServlet" method="POST">
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Name</label>
-                                <input type="text" name="milestone_name" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Description</label>
-                                <input type="text" name="milestone_des" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Due Date</label>
-                                <input type="date" name="due_date" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Completion Date</label>
-                                <input type="date" name="completion_date" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Add</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New Milestone</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
+            <div class="modal-body">
+                <form action="AddServlet" method="POST">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Name</label>
+                        <input type="text" name="milestone_name" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Description</label>
+                        <input type="text" name="milestone_des" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label" >Due Date</label>
+                        <input type="date" name="due_date" class="form-control" id="recipient-name" required="required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label" >Completion Date</label>
+                        <input type="date" name="completion_date" class="form-control" id="recipient-name" required="required">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </div>
+                </form>
+            </div>
+
         </div>
+    </div>
+</div>
 
 <%--<c:forEach  items="${listMilestone}" var="milestone">--%>
 <!-- edit Modal -->
@@ -177,7 +173,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Edit Milestone</h5>
+                <h6 class="modal-title" id="exampleModalLabel">Edit Milestone</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -185,7 +181,7 @@
             <div class="modal-body">
                 <form action="EditServlet" method="POST">
 
-                        <input id = "hidden" type="hidden" name="id" />
+                    <input id = "hidden" type="hidden" name="id" />
 
                     <%--<input type="hidden" name="id" value='${milestone.id}'  />--%>
                     <div class="form-group">
@@ -198,11 +194,11 @@
                     </div>
                     <div class="form-group">
                         <label for="message-text" class="col-form-label">Due Date</label>
-                        <input type="date" name="due_date" class="form-control" id="recipient-name">
+                        <input type="date" name="due_date" class="form-control" id="recipient-name" required="required">
                     </div>
                     <div class="form-group">
                         <label for="recipient-name" class="col-form-label">Completion Date</label>
-                        <input type="date" name="completion_date" class="form-control" id="recipient-name">
+                        <input type="date" name="completion_date" class="form-control" id="recipient-name" required="required">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
@@ -217,6 +213,13 @@
 <%--</c:forEach>--%>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if(e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
     function myFunction(thiss) {
         var val = thiss.getAttribute("value");
         console.log(val);

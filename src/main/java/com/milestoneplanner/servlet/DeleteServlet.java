@@ -17,9 +17,7 @@ import java.util.Date;
 @WebServlet("/DeleteServlet")
 public class DeleteServlet extends HttpServlet {
     private H2Milestone h2Milestone = new H2Milestone();
-//    public UserServlet(H2User h2User){
-//        this.h2User = h2User;
-//    }
+
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

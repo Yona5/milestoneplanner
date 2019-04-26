@@ -50,14 +50,14 @@ public class H2User implements AutoCloseable{
     }
     //add user to the database
     public void addUser(User user) {
-        System.out.println("in add user");
+
         final String GET_EMAIL_QUERY = "SELECT email FROM usertable WHERE email = ?";
         //return, if email already exists
         try (PreparedStatement p = connection.prepareStatement(GET_EMAIL_QUERY)) {
             p.setString(1, user.getEmail());
             ResultSet r = p.executeQuery();
             while (r.next()) {
-                System.out.println("in while loop");
+
                 return;
             }
         } catch (SQLException e) {
@@ -70,9 +70,9 @@ public class H2User implements AutoCloseable{
             ps.setString(2, user.getlName());
             ps.setString(3, user.getEmail());
             ps.setString(4, user.getPassword());
-            System.out.println("adding user");
+
             ps.execute();
-            System.out.println(ps);
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

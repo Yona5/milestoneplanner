@@ -1,57 +1,240 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%--<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>--%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+         pageEncoding="ISO-8859-1"%>
+
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Yahoo!!</title>
-    <!-- Bootstrap core CSS -->
-    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
-          rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>MilestonePlanner | Signup</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <style>
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 60px;
-            background-color: #f5f5f5;
-        }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        .footer .container {
-            width: auto;
-            max-width: 680px;
-            padding: 0 15px;
-        }
-    </style>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+    <meta name="description" content="Landing PAGE Html5 Template">
+
+    <meta name="keywords" content="landing,startup,flat">
 
 
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="/login.do">Login</a></li>
-        </ul>
+    <title>MilestonePlanner | Signup</title>
 
-<div class="container">
-    <form action="LoginServlet" method="POST">
-        <p><font color="red">${errorMessage}</font></p>
-        Enter your Name : <input name="name" type="text" />
-        Email : <input name="email" type="email" />
-        Password : <input name="password" type="password" /> <input type="submit" />
-    </form>
-</div>
 
-<footer class="footer">
-    <div class="container">
-        <p>footer content</p>
+
+    <!-- // PLUGINS (css files) // -->
+
+    <link href="../js/plugins/bootsnav_files/skins/color.css" rel="stylesheet">
+
+    <link href="../js/plugins/bootsnav_files/css/animate.css" rel="stylesheet">
+
+    <link href="../js/plugins/bootsnav_files/css/bootsnav.css" rel="stylesheet">
+
+    <link href="../js/plugins/bootsnav_files/css/overwrite.css" rel="stylesheet">
+
+    <link href="../js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+
+    <link href="../js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+
+    <link href="../js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+
+    <link href="../js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">
+
+    <!--// ICONS //-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--// BOOTSTRAP & Main //-->
+
+    <link href="../bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/main.css" rel="stylesheet">
+
+    </head>
+
+
+
+    <body>
+
+
+
+    <!--========================================
+
+           Preloader
+
+    ========================================-->
+
+    <div class="page-preloader">
+
+        <div class="spinner">
+
+            <div class="rect1"></div>
+
+            <div class="rect2"></div>
+
+            <div class="rect3"></div>
+
+            <div class="rect4"></div>
+
+            <div class="rect5"></div>
+
+        </div>
+
     </div>
-</footer>
 
-<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
-<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--========================================
 
-</body>
+           Header
+
+    ========================================-->
+
+
+
+    <!--//** Navigation**//-->
+
+    <nav class="navbar navbar-default navbar-fixed white no-background bootsnav navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+
+
+        <div class="container">
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+
+                    <i class="fa fa-bars"></i>
+
+                </button>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="navbar-brand" href="#brand">
+
+
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-menu">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="button-holder">
+                        <%--data-toggle="modal" data-target="#SignIn"--%>
+                            <a style="font-size:17px;"  href="/indexsignup.jsp">Sign up</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- /.navbar-collapse -->
+
+        </div>
+
+    </nav>
+
+
+
+    <!--//** Banner**//-->
+
+    <section id="home">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Introduction -->
+
+                <div class="col-md-6 caption">
+
+                    <h1>Welcome To MilestonePlanner</h1>
+
+                    <p>Plan your milestones well this tool, and experience the potential to delivery every
+                        single goal on time. Unleash your potential!</p>
+                </div>
+
+                <!-- Sign Up -->
+
+                <div class="col-md-5 col-md-offset-1">
+                    <%--<div class="modal-body">--%>
+
+                        <form class="signup-form" action="LoginServlet" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="email" class="form-control" placeholder="User email" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" name="password" class="form-control" placeholder="Password" required="required">
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-blue btn-block">Log In</button>
+                            </div>
+                        </form>
+
+                    <%--</div>--%>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                    <h4 class="modal-title text-center" id="myModalLabel">Sign In</h4>
+
+                </div>
+
+
+
+                <div class="modal-footer text-center">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+            <script src="../bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+            <script src="../js/plugins/owl-carousel/owl.carousel.min.js"></script>
+
+            <script src="../js/plugins/bootsnav_files/js/bootsnav.js"></script>
+
+            <script src="../js/plugins/typed.js-master/typed.js-master/dist/typed.min.js"></script>
+
+            <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+            <script src="../js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
+            <script src="../js/main.js"></script>
+
+    </body>
+
+
 
 </html>
-

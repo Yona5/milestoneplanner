@@ -36,9 +36,7 @@ public class UserServlet extends HttpServlet {
         String password = request.getParameter("password");
         User user = new User(first, last, email, password );
         this.h2User.addUser(user);
-        response.sendRedirect("indexsignup.jsp");
-//        RequestDispatcher req = request.getRequestDispatcher("project.jsp");
-//        req.forward(request, response);
-//        System.out.println("in servlet, yes");
+        response.sendRedirect("login.jsp");
+
     }
 }

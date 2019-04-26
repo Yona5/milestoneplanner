@@ -37,7 +37,7 @@ public class AddServlet extends HttpServlet {
         String completion_date = request.getParameter("completion_date");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         String email = (String)request.getSession().getAttribute("email");
-        System.out.println(email);
+
         try {
             Date dueDate = sdf.parse(due_date);
             Date completionDate = sdf.parse(completion_date);
@@ -51,6 +51,6 @@ public class AddServlet extends HttpServlet {
         }
 
         response.sendRedirect("/ListServlet");
-//        System.out.println("in servlet, yes");
+
     }
 }

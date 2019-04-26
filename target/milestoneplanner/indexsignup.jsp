@@ -110,9 +110,6 @@
                 <ul class="nav navbar-nav">
                     <li>
                         <a class="navbar-brand" href="#brand">
-
-                            MilestonePlanner
-
                         </a>
                     </li>
                 </ul>
@@ -124,7 +121,7 @@
 
                     <li class="button-holder">
 
-                        <button type="button" class="btn btn-blue navbar-btn" data-toggle="modal" data-target="#SignIn">Sign in</button>
+                        <a style="font-size:17px;" href="/login.jsp">Sign in</a>
 
                     </li>
 
@@ -204,23 +201,23 @@
 
                 </div>
 
-                <div class="modal-body">
+                <%--<div class="modal-body">--%>
 
-                    <form class="signup-form" action="LoginServlet" method="POST">
-                        <div class="form-group">
-                            <input type="text" name="email" class="form-control" placeholder="User email" required="required">
-                        </div>
+                    <%--<form class="signup-form" action="LoginServlet" method="POST">--%>
+                        <%--<div class="form-group">--%>
+                            <%--<input type="text" name="email" class="form-control" placeholder="User email" required="required">--%>
+                        <%--</div>--%>
 
-                        <div class="form-group">
-                            <input type="password" name="password" class="form-control" placeholder="Password" required="required">
-                        </div>
+                        <%--<div class="form-group">--%>
+                            <%--<input type="password" name="password" class="form-control" placeholder="Password" required="required">--%>
+                        <%--</div>--%>
 
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn btn-blue btn-block">Log In</button>
-                        </div>
-                    </form>
+                        <%--<div class="form-group text-center">--%>
+                            <%--<button type="submit" class="btn btn-blue btn-block">Log In</button>--%>
+                        <%--</div>--%>
+                    <%--</form>--%>
 
-                </div>
+                <%--</div>--%>
 
                 <div class="modal-footer text-center">
 

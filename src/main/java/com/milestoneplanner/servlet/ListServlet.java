@@ -17,11 +17,6 @@ import java.util.List;
 @WebServlet("/ListServlet")
 public class ListServlet extends HttpServlet {
     private H2Milestone h2Milestone = new H2Milestone();
-//    String email = null;
-//    String email;
-//    public UserServlet(String email){
-//        this.email = email;
-//    }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -32,18 +27,10 @@ public class ListServlet extends HttpServlet {
         response.setContentType("text/html");
         response.setStatus(200);
 
-//        System.out.println(email);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        List<Milestone> listMilestone = h2Milestone.findMilestones();
-//        request.setAttribute("listMilestone",listMilestone);
-//        request.getRequestDispatcher("../project.jsp").forward(request,response);
-//        RequestDispatcher req = request.getRequestDispatcher("project.jsp");
-//        req.forward(request, response);
-//        System.out.println(email);
-//        User user = new User(email);
 
     }
 }

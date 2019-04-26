@@ -22,23 +22,14 @@ public class EditServlet extends HttpServlet {
 //int milestoneId;
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-///       int id = Integer.parseInt(request.getParameter("id"));
-//        response.setContentType("text/html");
-//        response.setStatus(200);
-//        System.out.println(request.getParameter("id"));
-//         milestoneId = Integer.parseInt(request.getParameter("id"));
-//        System.out.println(milestoneId);
-//        request.setAttribute("milestone",h2Milestone.getMilestone(milestoneId));
 
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("above id");
-//        System.out.println(request.getParameter("id"));
-//        int id = milestoneId;
+
         int id = Integer.parseInt(request.getParameter("id"));
-        System.out.println("this is the id " + id);
+
         String milestone_name = request.getParameter("milestone_name");
 
         String milestone_des = request.getParameter("milestone_des");
@@ -57,6 +48,6 @@ public class EditServlet extends HttpServlet {
         }
 
         response.sendRedirect("/ListServlet");
-//        System.out.println("in servlet, yes");
+
     }
 }

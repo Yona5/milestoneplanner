@@ -10,15 +10,13 @@ import com.milestoneplanner.model.User;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import com.milestoneplanner.servlet.Runner;
 
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
     private H2User h2User = new H2User();
-//    String jdbcURL = getServletContext().getInitParameter("jdbcURL");
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        request.getRequestDispatcher("login.jsp").forward(request, response);
         response.setContentType("text/html");
         response.setStatus(200);
     }
@@ -33,14 +31,10 @@ public class LoginServlet extends HttpServlet {
 
         if (isUserValid) {
             request.getSession().setAttribute("email", email);
-//            response.sendRedirect("/list");
-            //RequestDispatcher req = request.getRequestDispatcher("project.jsp");
-            //req.forward(request, response);
+
             response.sendRedirect("/ListServlet");
         } else {
             request.setAttribute("errorMessage", "Invalid Credentials!");
-//            request.getRequestDispatcher("login.jsp").forward(
-//                    request, response);
             RequestDispatcher req = request.getRequestDispatcher("indexsignup.jsp");
             req.forward(request, response);
         }

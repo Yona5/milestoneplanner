@@ -47,7 +47,7 @@
                 <!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->
             </form>
         </nav>
-        <div class="description">Hey {{username}}. Here are your project milestones</div>
+ 
         <div class="row column">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#basicExampleModal">

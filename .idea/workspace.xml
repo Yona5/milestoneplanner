@@ -7,55 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a40d475-7149-4116-8291-22444264975d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListSharedServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shared.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/AddServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/DeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/EditServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/EditServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/project.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/db/H2Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/db/H2Milestone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/db/H2User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/db/H2User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/AddServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/DeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/EditServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/EditServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/ListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/MilestoneServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/milestoneplanner/servlet/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/db/H2Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/db/H2Milestone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/db/H2User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/db/H2User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/AddServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/DeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/EditServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/EditServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/ListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/MilestoneServlet$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/MilestoneServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/WEB-INF/classes/com/milestoneplanner/servlet/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/add-milestone.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/dashboard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/index_milestones.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/indexsignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/indexsignup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/logout.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/milestoneForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/milestoneplanner/project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/milestoneplanner/project.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="253">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="method#encode#0;class#ShareServlet#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="276">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,20 +105,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListSharedServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="437">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="method#decode#0;class#ListSharedServlet#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
               <caret line="126" column="62" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -171,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="3496">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
             </state>
           </provider>
         </entry>
@@ -246,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/milestoneForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2Milestone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/db/H2User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/AddServlet.java" />
@@ -260,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/project.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/indexsignup.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java" />
       </list>
     </option>
   </component>
@@ -287,8 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +295,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,17 +469,18 @@
       <workItem from="1556285532122" duration="12571000" />
       <workItem from="1556305684039" duration="2799000" />
       <workItem from="1556309631234" duration="218000" />
+      <workItem from="1556310062852" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83090000" />
+    <option name="totallyTimeSpent" value="83641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2427954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24711816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -683,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/project.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="943">
@@ -721,16 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -741,17 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListSharedServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/indexsignup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="3496">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
@@ -759,8 +691,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="126" column="62" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListSharedServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="method#decode#0;class#ListSharedServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/milestoneplanner/servlet/ShareServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="method#encode#0;class#ShareServlet#0" />
           </folding>
         </state>
       </provider>

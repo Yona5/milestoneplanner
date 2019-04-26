@@ -151,7 +151,7 @@
 
                     <h1>Welcome To MilestonePlanner</h1>
 
-                    <p>Plan your milestones well this tool, and experience the potential to delivery every
+                    <p>Plan your milestones with this tool, and experience the potential to delivery every
                         single goal on time. Unleash your potential!</p>
                 </div>
 

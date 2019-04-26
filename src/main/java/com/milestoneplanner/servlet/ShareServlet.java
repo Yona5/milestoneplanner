@@ -38,6 +38,9 @@ public class ShareServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String sharedLink = (String)request.getSession().getAttribute("email");
 
+        List<Milestone> listMilestone = h2Milestone.findMilestones(sharedLink);
+        request.setAttribute("listMilestone",listMilestone);
+
         String str = encode(sharedLink);
 
         request.setAttribute("sharedLink",str);

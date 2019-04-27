@@ -148,7 +148,7 @@
                         <input type="text" name="milestone_des" class="form-control" id="recipient-name">
                     </div>
                     <div class="form-group">
-                        <label for="message-text" class="col-form-label" >Due Date</label>
+                        <label for="message-text" class="col-form-label" >Start Date</label>
                         <input type="date" name="due_date" class="form-control" id="recipient-name" required="required>
                     </div>
                     <div class="form-group">

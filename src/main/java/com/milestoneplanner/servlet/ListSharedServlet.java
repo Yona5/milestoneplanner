@@ -18,11 +18,15 @@ public class ListSharedServlet extends HttpServlet {
 
     public String decode(String str) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < str.length(); i += 2) {
-            int count = Integer.valueOf("" + str.charAt(i + 1));
-            for (int j = 0; j < count; j++) {
-                sb.append(str.charAt(i));
+        try{
+            for (int i = 0; i < str.length(); i += 2) {
+                int count = Integer.valueOf("" + str.charAt(i + 1));
+                for (int j = 0; j < count; j++) {
+                    sb.append(str.charAt(i));
+                }
             }
+        }catch(NumberFormatException e){
+            System.out.println(e);
         }
         return sb.toString();
     }

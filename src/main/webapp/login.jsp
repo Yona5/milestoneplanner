@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MilestonePlanner | Signup</title>
+    <title>MilestonePlanner | Sign in</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
     <meta name="keywords" content="landing,startup,flat">
 
 
-    <title>MilestonePlanner | Signup</title>
+    <title>MilestonePlanner | Sigin</title>
 
 
 
@@ -110,9 +110,6 @@
                 <ul class="nav navbar-nav">
                     <li>
                         <a class="navbar-brand" href="#brand">
-
-
-
                         </a>
                     </li>
                 </ul>
@@ -157,10 +154,16 @@
                         single goal on time. Unleash your potential!</p>
                 </div>
 
-                <!-- Sign Up -->
+                <!-- Sign In -->
+
 
                 <div class="col-md-5 col-md-offset-1">
                     <%--<div class="modal-body">--%>
+                        <c:if test="${errorMessage == 'Invalid Credentials!'}">
+                            <div class="alert alert-danger">
+                                <strong>Invalid Credentials!</strong>Please enter your email and password again!
+                            </div>
+                        </c:if>
 
                         <form class="signup-form" action="LoginServlet" method="POST">
                             <div class="form-group">

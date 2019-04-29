@@ -31,12 +31,10 @@ public class LoginServlet extends HttpServlet {
 
         if (isUserValid) {
             request.getSession().setAttribute("email", email);
-
             response.sendRedirect("/ListServlet");
         } else {
             request.setAttribute("errorMessage", "Invalid Credentials!");
-            RequestDispatcher req = request.getRequestDispatcher("indexsignup.jsp");
-            req.forward(request, response);
+            request.getRequestDispatcher("login.jsp").forward(request,response);
         }
     }
 

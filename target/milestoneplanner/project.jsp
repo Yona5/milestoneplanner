@@ -23,7 +23,7 @@
         </div>
         <div class="navigation">
             <ul style=" padding-left: 20px; padding-right: 20px;">
-                <form action="/ListSharedServlet" method="get">
+                <form action="/ListSharedServlet" method="get" >
                     <input type="text" name="sharedLink" class="form-control" id="link" placeholder="Insert Link" required="required">
                     <button type="submit" class="btn btn-primary btn-sm" style="margin-top: 20px;">
                         Import
@@ -38,13 +38,13 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
             <a class="navbar-brand">Projects Dashboard</a>
             <form class="form-inline">
-                <a class="btn btn-primary" style="margin-right: 20px;" href="/ShareServlet">Share<a/>
+                <a class="btn btn-primary" style="margin-right: 20px; color:white;" onclick="revealLink()">Share</a>
 
-                    <a class="btn btn-primary" href="/logout">Logout<a/>
+                    <a class="btn btn-primary" href="/logout">Logout</a>
                         <!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->
             </form>
         </nav>
-        <div id="shared">${sharedLink}</div>
+        <div id="shared" style="display:none">Link:  ${sharedLink}</div>
         <div class="row column">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#basicExampleModal">
@@ -56,7 +56,8 @@
             <%--<!--<button class="btn btn-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" type="submit">Create Project</button>-->--%>
             <%--</form>--%>
         </div>
-        <div>
+        <c:if test="${not empty listMilestone}">
+            <div>
             <div>
                 <h6>Project Milestones</h6>
             </div>
@@ -88,6 +89,7 @@
                 </table>
             </div>
         </div>
+        </c:if>
 
     </div>
 
@@ -213,6 +215,9 @@
 <%--</c:forEach>--%>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
+    function revealLink(){
+        document.getElementById("shared").style.display = "block";
+    }
     function toggle_visibility(id) {
         var e = document.getElementById(id);
         if(e.style.display == 'block')

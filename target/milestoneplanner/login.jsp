@@ -161,7 +161,7 @@
                     <%--<div class="modal-body">--%>
                         <c:if test="${errorMessage == 'Invalid Credentials!'}">
                             <div class="alert alert-danger">
-                                <strong>Invalid Credentials!</strong>Please enter your email and password again!
+                                <strong>Invalid Credentials!</strong> Please enter your email and password again!
                             </div>
                         </c:if>
 

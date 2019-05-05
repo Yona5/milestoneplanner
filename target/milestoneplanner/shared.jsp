@@ -37,10 +37,11 @@
         <div class="row column">
         </div>
         <div>
-            <div>
-                <h5>Shared Milestones</h5>
-            </div>
-            <div align="center">
+            <c:if test="${not empty sharedMilestone}">
+                <div>
+                    <h5>Shared Milestones</h5>
+                </div>
+                <div align="center">
                 <table class="table table-bordered" border="1" cellpadding="5">
                     <tr class=" table-primary">
                         <th>Name</th>
@@ -59,6 +60,10 @@
                     </c:forEach>
                 </table>
             </div>
+            </c:if>
+            <c:if test="${empty sharedMilestone}">
+                <p>Please insert the correct link!</p>
+            </c:if>
         </div>
     </div>
 
